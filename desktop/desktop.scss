@@ -31,9 +31,6 @@
    .search-header {
      margin-left: 0;
      margin-right: 30vw; 
-     @media screen and (min-width: 1400px) {
-       margin-right: 25vw;
-     }
    }
 
    .search-input {
@@ -155,5 +152,11 @@
         margin-left: 5px;
       }
     }
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .search-header {
+    margin-right: 25vw;
   }
 }
