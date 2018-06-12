@@ -29,8 +29,7 @@
    }
 
    .search-header {
-     margin-left: 0;
-     margin-right: 30vw; 
+     margin-left: 30vw; 
    }
 
    .search-input {
@@ -157,6 +156,6 @@
 
 @media screen and (min-width: 1400px) {
   .search-header {
-    margin-right: 25vw;
+    margin-left: 25vw;
   }
 }
